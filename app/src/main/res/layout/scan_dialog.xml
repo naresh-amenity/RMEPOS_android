@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#99000000">
+
+    <EditText
+        android:id="@+id/edTemp"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:background="@null"
+        android:textColor="@android:color/transparent"/>
+    <LinearLayout
+        android:id="@+id/layScannerMain"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+
+            <LinearLayout
+                android:id="@+id/scannerLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:background="@drawable/ic_viewfinder"
+                android:orientation="horizontal">
+
+                <View
+                    android:id="@+id/scannerBar"
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:background="@color/colorPrimary" />
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/txtCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:textColor="@color/clr_White"
+        android:layout_below="@+id/layScannerMain"
+        android:layout_centerHorizontal="true"
+        android:textSize="15sp"
+        android:background="@drawable/cur_white_boarder"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="    Cancel Scan    "/>
+
+</RelativeLayout>

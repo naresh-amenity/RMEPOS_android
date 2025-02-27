@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FontTextView">
+        <attr name="brand_icon" format="boolean" />
+        <attr name="solid_icon" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="SpreadView">
+        <attr name="spread_center_color" format="color" />
+        <attr name="spread_radius" format="integer" />
+        <attr name="spread_spread_color" format="color" />
+        <attr name="spread_distance" format="integer" />
+        <attr name="spread_max_radius" format="integer" />
+        <attr name="spread_delay_milliseconds" format="integer" />
+    </declare-styleable>
+</resources>
